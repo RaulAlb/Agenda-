@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Organizador Escolar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<!-- Encabezado -->
+	<header>
+		<div id="div_header">
+			<div id="div_header_menu" onclick="sidemenuOn()"><img src="img/menu.png"></div>
+			<div id="div_header_title"><h1>Organizador Escolar</h1></div>
+		</div>
+	</header>
+	<!-- Cuerpo -->
+	<div id="div_main" onclick="sidemenuOff()">
+		<div id="sidemenu">
+			<ul>
+				<h2>Iniciar Sesión</h2>
+				<hr>
+				<li class="sidemenu_item"><a href="index.html">Inicio</a></li>
+				<li class="sidemenu_item"><a href="calendario.html">Agenda</a></li>
+				<li class="sidemenu_item"><a href="horario.html">Horario</a></li>
+				<!-- <li class="sidemenu_item"><a href="materias.html">Materia</a></li> -->
+				<li class="sidemenu_item"><a href="calif.html">Calificaciones</a></li>
+			</ul>
+		</div>
+		<div id="div_main_calendar">
+			<table>
+				<!-- <p id="notificacion"></p> -->
+				<tr>
+					<th>Lunes</th>
+					<th>Martes</th>
+					<th>Miercoles</th>
+					<th>Jueves</th>
+					<th>Viernes</th>
+				</tr>
+				<tr>
+					<td><textarea id="L7" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="M7" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="Mi7" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="J7" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="V7" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+				</tr>
+				<tr>
+					<td><textarea id="L9" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="M9" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="Mi9" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="J9" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="V9" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+				</tr>
+				<tr>
+					<td><textarea id="L11" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="M11" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="Mi11" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="J11" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="V11" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+				</tr>
+				<tr>
+					<td><textarea id="L13" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="M13" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="Mi13" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="J13" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="V13" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+				</tr>
+				<tr>
+					<td><textarea id="L15" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="M15" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="Mi15" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="J15" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+					<td><textarea id="V15" placeholder="Agregar evento" onblur="agregarEvt(this.value,this.id)"></textarea></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!-- Pie/Menu -->
+	<footer>
+		
+	</footer>
+</body>
+<script src="js/javascript.js"></script>
+<script src="js/calendario.js"></script>
+</html>
